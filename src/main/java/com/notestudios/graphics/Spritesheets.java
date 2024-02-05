@@ -13,7 +13,6 @@ public class Spritesheets {
 	public Spritesheets(String path)
 	{
 		try {
-			System.out.println("Path: "+getClass().getResource(path));
 			spritesheet = ImageIO.read(getClass().getResource(path));
 			bg = ImageIO.read(getClass().getResource("/bg.png"));
 			bg2 = ImageIO.read(getClass().getResource("/bg2.png"));

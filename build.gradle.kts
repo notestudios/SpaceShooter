@@ -21,14 +21,6 @@ dependencies {
     implementation(libs.guava)
 }
 
-sourceSets {
-    main {
-        java {
-            srcDirs("src", "assets")
-        }
-    }
-}
-
 // Apply a specific Java toolchain to ease working on different environments.
 java {
     toolchain {

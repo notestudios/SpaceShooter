@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Game_07</name>
-	<comment></comment>
+	<name>SpaceShooter</name>
+	<comment>A Game about Space Shooting!</comment>
 	<projects>
 	</projects>
 	<buildSpec>
