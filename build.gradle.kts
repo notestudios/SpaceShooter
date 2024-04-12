@@ -32,3 +32,9 @@ application {
     // Define the main class for the application.
     mainClass.set("com.notestudios.main.Game")
 }
+
+tasks.withType<Jar> {
+    manifest {
+        attributes["Main-Class"] = "com.notestudios.main.Game"
+    }
+}
