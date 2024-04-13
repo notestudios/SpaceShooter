@@ -29,3 +29,6 @@ build
 hs_err_pid*
 replay_pid*
 
+# Ignore Java build output
+bin
+
