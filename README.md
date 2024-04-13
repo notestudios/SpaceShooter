@@ -38,9 +38,9 @@ You can run the game doing the following:
   $ cd build/libs
   ```
 2. Run the java file, you can double-click in it, or just run this in the terminal:
-   ```sh
-   # java -jar SpaceShooter.jar
-   ```
+  ```sh
+  $ java -jar SpaceShooter.jar
+  ```
 Happy Gaming!
 
 ## Development
