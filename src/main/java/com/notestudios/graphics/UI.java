@@ -63,6 +63,10 @@ public class UI {
 				} else if(Player.spaceShipColor == Color.magenta) {
 					Player.spaceShipColor = Color.pink;
 				} else if(Player.spaceShipColor == Color.pink) {
+					Player.spaceShipColor = Color.black;
+				} else if(Player.spaceShipColor == Color.black) {
+					Player.spaceShipColor = Color.white;
+				} else if(Player.spaceShipColor == Color.white) {
 					Player.spaceShipColor = Color.blue;
 				}
 			}
@@ -75,6 +79,10 @@ public class UI {
 			showSpaceshipColor = "Purple";
 		} else if(Player.spaceShipColor == Color.pink) {
 			showSpaceshipColor = "Pink";
+		} else if(Player.spaceShipColor == Color.black) {
+			showSpaceshipColor = "Dark";
+		} else if(Player.spaceShipColor == Color.white) {
+			showSpaceshipColor = "White";
 		}
 		
 		if(Game.Escape) {

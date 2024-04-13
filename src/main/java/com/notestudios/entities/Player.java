@@ -25,7 +25,7 @@ public class Player extends Entity{
 	public Player(int x, int y, int width, int height,double speed,BufferedImage sprite) {
 		super(x, y, width, height,speed,sprite);
 		
-		damagedSpaceShip = Game.spritesheet.getSprite(64, 0, 16, 16);
+		damagedSpaceShip = Game.spritesheet.getSprite(64, 16, 16, 16);
 	}
 	
 	public void tick() {
@@ -38,6 +38,10 @@ public class Player extends Entity{
 			spaceShip = Game.spritesheet.getSprite(32, 0, 16, 16);
 		} else if(spaceShipColor == Color.pink) {
 			spaceShip = Game.spritesheet.getSprite(48, 0, 16, 16);
+		} else if(spaceShipColor == Color.black) {
+			spaceShip = Game.spritesheet.getSprite(64, 0, 16, 16);
+		} else if(spaceShipColor == Color.white) {
+			spaceShip = Game.spritesheet.getSprite(80, 0, 16, 16);
 		}
 		
 		if(Game.gameState == "inGame") {
@@ -102,10 +106,4 @@ public class Player extends Entity{
 			}
 		}
 	}
-
-	
-
-	
-
-
 }
